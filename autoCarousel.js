@@ -8,7 +8,6 @@
 				});
 
 				var counter = 0;
-				var sliderFinished = false;
 				var changeSlide = setInterval(function(){
 					if (counter === slides.length-1) {
 							slides[counter].fadeOut(1000);
