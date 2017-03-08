@@ -3,7 +3,7 @@
 			if($('.autoCarousel').length > 0){
 
 				var slides = [];
-				$('.autoCarousel img').each(function(){
+				$('.autoCarousel div').each(function(){
 					slides.push($(this));
 				});
 
