@@ -6,8 +6,7 @@
 
 ## Run autoCarousel.js on any page using the below markup. jQuery required.
 
-'''html
-<!-- Carousel: insert any amount of bg images here, autoCarousel() will cycle through them automagically-->
+```html
 <div class='autoCarousel'>
 	<div style="background-image: url('../images/image-1.jpg');">&nbsp;</div>
 	<div style="background-image: url('../images/image-2.jpg'); display: none;">&nbsp;</div>
